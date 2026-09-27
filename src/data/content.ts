@@ -5,7 +5,6 @@ export const profile = {
     'I build backend APIs and full-stack web applications with Python, FastAPI and React.js — and wire them into the cloud, messaging and LLM services that make them useful.',
   location: 'Mandi, Himachal Pradesh, India',
   email: 'developer.abhishek.28@gmail.com',
-  phone: '+91 8894393439',
   portfolio: 'https://abhishek-rust.vercel.app/',
   avatar: 'https://avatars.githubusercontent.com/u/182419352?v=4',
   available: true,
