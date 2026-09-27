@@ -24,7 +24,7 @@ export const whatsappHref = `https://wa.me/${whatsapp.number}?text=${encodeURICo
 export const socials = [
   { label: 'WhatsApp', handle: whatsapp.display, href: whatsappHref },
   { label: 'GitHub', handle: '@ABHIKUMAR06', href: 'https://github.com/ABHIKUMAR06' },
-  { label: 'LinkedIn', handle: 'in/abhi-mern', href: 'https://www.linkedin.com/in/abhi-mern' },
+  { label: 'LinkedIn', handle: 'in/abhishek-dev28', href: 'https://www.linkedin.com/in/abhishek-dev28' },
   {
     label: 'Instagram',
     handle: '@abhi_rajput_28_',
