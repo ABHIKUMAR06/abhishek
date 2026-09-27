@@ -54,6 +54,7 @@ export function Hero() {
             <ul className="mt-9 flex items-center gap-2">
               {socials.map((social) => {
                 const Icon = iconFor(social.label)
+                const isWhatsApp = social.label === 'WhatsApp'
                 return (
                   <li key={social.label}>
                     <a
@@ -62,7 +63,11 @@ export function Hero() {
                       rel="noreferrer noopener"
                       aria-label={social.label}
                       title={`${social.label} — ${social.handle}`}
-                      className="hover:border-accent-500/40 hover:text-accent-400 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 text-slate-400 transition-colors hover:bg-white/5"
+                      className={`flex h-10 w-10 items-center justify-center rounded-xl border transition-colors ${
+                        isWhatsApp
+                          ? 'border-[#25D366]/35 bg-[#25D366]/10 text-[#25D366] hover:border-[#25D366]/60 hover:bg-[#25D366]/20'
+                          : 'border-white/10 text-slate-400 hover:border-accent-500/40 hover:bg-white/5 hover:text-accent-400'
+                      }`}
                     >
                       <Icon className="h-[18px] w-[18px]" />
                     </a>

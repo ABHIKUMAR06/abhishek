@@ -5,7 +5,7 @@ import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { Nav } from './components/Nav'
 import { Skills } from './components/Skills'
-import { WhatsAppFab } from './components/WhatsAppFab'
+import { FloatingActions } from './components/FloatingActions'
 import { Work } from './components/Work'
 import { useReveal } from './hooks/useReveal'
 
@@ -31,7 +31,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
-      <WhatsAppFab />
+      <FloatingActions />
     </>
   )
 }
