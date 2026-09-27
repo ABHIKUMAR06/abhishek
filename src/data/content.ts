@@ -6,6 +6,7 @@ export const profile = {
   location: 'Mandi, Himachal Pradesh, India',
   email: 'developer.abhishek.28@gmail.com',
   phone: '+91 8894393439',
+  portfolio: 'https://abhishek-rust.vercel.app/',
   avatar: 'https://avatars.githubusercontent.com/u/182419352?v=4',
   available: true,
 }
